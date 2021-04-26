@@ -1,0 +1,114 @@
+* {
+	margin:0; 
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background-image: url(img/back-cover.jpg);
+	background-size: 100%;
+}
+
+#wrapper{
+	background-color: hsla(358,28%,95%,0.85);
+	width: 990px;
+	margin: auto;}
+
+nav{
+ 	margin: 0 auto;
+    text-align:left;
+    margin-top: 40px;
+    line-height:25px;
+
+}
+main{
+	display: flex;
+}
+#logo {
+    
+    height: 96px;
+    width: 278px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+ul{
+	border: 1px solid black;
+	border-left: none;
+	border-right: none;
+
+	}
+li{
+	list-style: none;
+	display: inline-block;
+	padding: auto;
+	border-right: 1px solid black;
+	margin-left: 0px;
+	text-align: center;
+	}
+
+ 
+a{text-decoration: none;}
+
+ .menu:visited{color: black;}
+
+ .menu:hover{color: #d86c0c;}
+
+#Restaurent{
+	margin-top: 40px;
+	max-width: 280px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+#Restaurent h3{margin: 20px 0px 20px 0px;}
+
+#totalorium{
+	margin-top: 40px;
+	width: 640px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#totalorium h3{margin: 40px 0px 20px 0px;}
+
+.container-vignette  {
+	margin:35px 0;
+	display: flex;
+	border-top: 1px solid black;
+	padding-top: 10px;
+}
+
+.sujet{position: absolute;}
+
+.vignette{
+	margin-left:0px;
+	
+	min-width:100px;
+	border:1px solid #111;
+	border-style: none;
+	
+	margin-top: 40px;
+	text-align: center;
+}
+.image{padding-left:25px;}
+
+.image2{padding-right: 25px;}
+
+.vignette a {
+	font-size:12px;
+	text-align:center;
+	}
+
+.texte-vig {color: #b32;}
+
+.texte-vig:hover {color: gray;}
+
+footer{
+	border-top: 1px solid black;
+	height: 40px;
+	margin-top: 40px; 
+	text-align: right; 
+	padding:10px 10px 10px 0px;
+	font-size: 12px;
+}
